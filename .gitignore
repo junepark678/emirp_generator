@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+# we aren't using any c files directly, only Cython build files. Get rid of those
+*.c
 
 # Distribution / packaging
 .Python
